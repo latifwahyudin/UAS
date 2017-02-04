@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>French | Restaurant</title>
+		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Farsan" rel="stylesheet"> type="text/css">
+	</head>
+	
+	<body>
+		<!--Header-->
+		<div id="header">
+			<img id="logo" alt="logo FRENCH" src="img/logo-french.jpg" width="110" />
+			<span id="navigasi">
+				<a href="index.html">HOME</a>
+				<a href="about.html">ABOUT</a>
+				<a href="menu.html">MENU</a>
+				<a id="link-active" href="reservation.html">RESERVATION</a>
+			</span>
+		</div>
+
+		<!--Cover Image-->
+		<div id="cover-image">
+			<img alt="cover image" src="img/cover-image-contact.jpg" />
+		</div>
+
+		<div id="isi">
+			<!--Contact-->
+			<div id="contact">
+				<div id="bungkus-contact">
+					<h2><span class="judul">RESERVATION NOW</span></h2>
+
+					<div id="form">
+						<form action="#" method="post">
+							<label for="form_nama">Name</label>
+							<input type="text" name="nama" id="form_nama" /> <br />
+
+							<label for="form_email">Email</label>
+							<input type="text" name="email" id="form_email" /> <br />
+
+							<label for="form_pesan" id="pesan">Message</label>
+							<textarea name="pesan" id="form_pesan"></textarea> <br />
+
+							<input type="submit" name="kirim" value="make a reservation" id="form_kirim" class="tombol" />
+						</form>
+					</div>
+
+					<div id="address">
+						<img alt="home icon" src="img/home-icon.png" />
+						<p>Fresh Street No 26 Jakarta 15455</p>
+						<img alt="phone icon" src="img/phone-icon.png" />
+						<p>(021) 55762876</p>
+						<img alt="phone icon" src="img/clock-icon.png" />
+						<p>Monday - Saturday. Open 08:30 - 22:00 WIB</p>
+					</div>
+				</div>
+			</div>
+
+			
+
+			<!--Footer-->
+			<div id="footer">
+				<div id="bungkus-footer">
+					<div id="label-footer">FIND US</div>
+
+					<div id="sosmed-footer">
+						<img id="facebook" alt="medsos facebook" src="img/facebook.png" />
+						<img id="twitter" alt="medsos twitter" src="img/twitter.png" />
+						<img id="instagram" alt="medsos instagram" src="img/instagram.png" />
+						<img id="linkedin" alt="medsos linkedin" src="img/linkedin.png" />
+						<img id="behance" alt="medsos behance" src="img/behance.png" />
+					</div>
+
+					<div>Telp. <span id="telp">(021) 55762876</span> 
+
+				</div>
+			</div>
+		</div>
+
+		<!-- jquery dahulu baru bxslider-->
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/lightbox.min.js"></script>
+		<script>
+			lightbox.option({
+		      'fitImagesInViewport': false
+		    });
+		</script>
+	</body>
+</html>
